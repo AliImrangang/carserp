@@ -11,8 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Khushi Motors',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Color(0xFFF3630B)
+        primaryColor: Color(0xFFF3630B),
+
       ),
       home: HomeView(),
     );
