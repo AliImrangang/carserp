@@ -1,3 +1,4 @@
+import 'package:classofterp/home_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Color(0xFFF3630B)
       ),
-     // home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: HomeView(),
     );
   }
 }
